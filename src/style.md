@@ -1,9 +1,9 @@
 ---
-layout: base.njk
+layout: base.html
 title: Hello World
 ---
 
-# h1 {{mockdata.name}}
+# h1 Ada Lovelace
 
 <p class="lead">English mathematician Ada Lovelace, the daughter of poet Lord Byron, has been called "the first computer programmer" for writing an algorithm for a computing machine in the mid-1800s.</p>
 

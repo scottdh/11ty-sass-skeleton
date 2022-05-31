@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+  </head>
+  <body>
+    <article class="wrapper flow">
+      <header>
+        <h1>{{ title }}</h1>
+      </header>
+      <main>{{ content | safe }}</main>
+      <p class="color-text-secondary">Secondary text</p>
+      <p class="color-text-tertiary">Tertiary text</p>
+      <button>Base button</button>
+      <button data-type="primary">Primary button</button>
+      <div class="msg" data-type="negative">This is a red warning message</div>
+    </article>
+  </body>
+</html>
